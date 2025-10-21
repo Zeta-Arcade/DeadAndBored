@@ -15,9 +15,11 @@
           "UnityEngine.Modules": "2022.3.9",
           "Assembly-CSharp": "0.0.0.0",
           "DissonanceVoip": "0.0.0.0",
-          "LethalCompanyInputUtils": "1.0.0.0",
-          "SpectateEnemy": "2.2.0.0",
-          "Unity.InputSystem": "1.4.4.0",
+          "LethalCompanyInputUtils": "0.0.0.0",
+          "SpectateEnemy": "2.5.0.0",
+          "Unity.InputSystem": "1.7.0.0",
+          "Unity.InputSystem.ForUI": "0.0.0.0",
+          "Unity.Netcode.Components": "0.0.0.0",
           "Unity.Netcode.Runtime": "0.0.0.0",
           "Unity.TextMeshPro": "0.0.0.0",
           "UnityEngine.UI": "1.0.0.0"
@@ -376,27 +378,43 @@
           }
         }
       },
-      "LethalCompanyInputUtils/1.0.0.0": {
+      "LethalCompanyInputUtils/0.0.0.0": {
         "runtime": {
           "LethalCompanyInputUtils.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.7.10.0"
           }
         }
       },
-      "SpectateEnemy/2.2.0.0": {
+      "SpectateEnemy/2.5.0.0": {
         "runtime": {
           "SpectateEnemy.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.0"
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
           }
         }
       },
-      "Unity.InputSystem/1.4.4.0": {
+      "Unity.InputSystem/1.7.0.0": {
         "runtime": {
           "Unity.InputSystem.dll": {
-            "assemblyVersion": "1.4.4.0",
-            "fileVersion": "1.4.4.0"
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "Unity.InputSystem.ForUI/0.0.0.0": {
+        "runtime": {
+          "Unity.InputSystem.ForUI.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Unity.Netcode.Components/0.0.0.0": {
+        "runtime": {
+          "Unity.Netcode.Components.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -440,17 +458,17 @@
           }
         }
       },
-      "Unity.RenderPipelines.HighDefinition.Runtime/0.0.0.0": {
+      "Unity.RenderPipelines.Core.Runtime/0.0.0.0": {
         "runtime": {
-          "Unity.RenderPipelines.HighDefinition.Runtime.dll": {
+          "Unity.RenderPipelines.Core.Runtime.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
         }
       },
-      "Unity.RenderPipelines.Core.Runtime/0.0.0.0": {
+      "Unity.RenderPipelines.HighDefinition.Runtime/0.0.0.0": {
         "runtime": {
-          "Unity.RenderPipelines.Core.Runtime.dll": {
+          "Unity.RenderPipelines.HighDefinition.Runtime.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -467,14 +485,6 @@
       "Facepunch Transport for Netcode for GameObjects/0.0.0.0": {
         "runtime": {
           "Facepunch Transport for Netcode for GameObjects.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Unity.Netcode.Components/0.0.0.0": {
-        "runtime": {
-          "Unity.Netcode.Components.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -509,6 +519,14 @@
           "Newtonsoft.Json.dll": {
             "assemblyVersion": "13.0.0.0",
             "fileVersion": "13.0.2.0"
+          }
+        }
+      },
+      "Unity.Mathematics/1.0.0.0": {
+        "runtime": {
+          "Unity.Mathematics.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -557,14 +575,6 @@
           "Unity.Multiplayer.Tools.NetStatsReporting.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Unity.Mathematics/1.0.0.0": {
-        "runtime": {
-          "Unity.Mathematics.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -710,7 +720,7 @@
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
@@ -948,17 +958,27 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LethalCompanyInputUtils/1.0.0.0": {
+    "LethalCompanyInputUtils/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "SpectateEnemy/2.2.0.0": {
+    "SpectateEnemy/2.5.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.InputSystem/1.4.4.0": {
+    "Unity.InputSystem/1.7.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.InputSystem.ForUI/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Netcode.Components/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -988,12 +1008,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.RenderPipelines.HighDefinition.Runtime/0.0.0.0": {
+    "Unity.RenderPipelines.Core.Runtime/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.RenderPipelines.Core.Runtime/0.0.0.0": {
+    "Unity.RenderPipelines.HighDefinition.Runtime/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -1004,11 +1024,6 @@
       "sha512": ""
     },
     "Facepunch Transport for Netcode for GameObjects/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Unity.Netcode.Components/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -1029,6 +1044,11 @@
       "sha512": ""
     },
     "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Mathematics/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -1059,11 +1079,6 @@
       "sha512": ""
     },
     "Unity.Multiplayer.Tools.NetStatsReporting/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Unity.Mathematics/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

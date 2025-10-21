@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Quinn\\Documents\\LethalCompany\\DeadAndBored\\DeadAndBored.csproj": {}
+    "C:\\Users\\Zeta\\source\\repos\\DeadNBored\\DeadAndBored\\DeadAndBored.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Quinn\\Documents\\LethalCompany\\DeadAndBored\\DeadAndBored.csproj": {
+    "C:\\Users\\Zeta\\source\\repos\\DeadNBored\\DeadAndBored\\DeadAndBored.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Quinn\\Documents\\LethalCompany\\DeadAndBored\\DeadAndBored.csproj",
+        "projectUniqueName": "C:\\Users\\Zeta\\source\\repos\\DeadNBored\\DeadAndBored\\DeadAndBored.csproj",
         "projectName": "DeadAndBored",
-        "projectPath": "C:\\Users\\Quinn\\Documents\\LethalCompany\\DeadAndBored\\DeadAndBored.csproj",
-        "packagesPath": "C:\\Users\\Quinn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Quinn\\Documents\\LethalCompany\\DeadAndBored\\obj\\",
+        "projectPath": "C:\\Users\\Zeta\\source\\repos\\DeadNBored\\DeadAndBored\\DeadAndBored.csproj",
+        "packagesPath": "C:\\Users\\Zeta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zeta\\source\\repos\\DeadNBored\\DeadAndBored\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Quinn\\Documents\\LethalCompany\\DeadAndBored\\NuGet.Config",
-          "C:\\Users\\Quinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zeta\\source\\repos\\DeadNBored\\DeadAndBored\\NuGet.Config",
+          "C:\\Users\\Zeta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,7 +71,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

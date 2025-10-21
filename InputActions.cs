@@ -1,4 +1,5 @@
 ﻿using LethalCompanyInputUtils.Api;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace DeadAndBored

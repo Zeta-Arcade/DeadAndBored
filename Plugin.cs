@@ -4,7 +4,7 @@ using HarmonyLib;
 namespace DeadAndBored
 {
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
-    [BepInDependency(LethalCompanyInputUtils.LethalCompanyInputUtilsPlugin.ModId, BepInDependency.DependencyFlags.HardDependency)]
+    [BepInDependency(LethalCompanyInputUtils.PluginInfo.PLUGIN_GUID, BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency(SpectateEnemy.MyPluginInfo.PLUGIN_GUID, BepInDependency.DependencyFlags.HardDependency)]
     public class Plugin : BaseUnityPlugin
     {
@@ -15,7 +15,7 @@ namespace DeadAndBored
         {
             harmony = new Harmony(MyPluginInfo.PLUGIN_GUID);
             Configuration.Config.Init();
-            Logger.LogInfo("Dead And Bored loaded!");
+            Logger.LogInfo("Dead And Bored Fork loaded!");
             harmony.PatchAll();
         }
     }
