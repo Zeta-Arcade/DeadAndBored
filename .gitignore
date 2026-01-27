@@ -396,3 +396,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/bin
+/bin/Debug
+/lib
+/bin
+/bin/Debug
+/bin/Debug/netstandard2.1

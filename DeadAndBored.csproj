@@ -22,52 +22,52 @@
   
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\BepInEx-BepInExPack\5.4.2100\BepInExPack\BepInEx\core\0Harmony.dll</HintPath>
+      <HintPath>lib\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\Documents\Projects\References\Lethal Data\Assembly-CSharp.dll</HintPath>
+      <HintPath>lib\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>..\..\..\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\BepInEx-BepInExPack\5.4.2100\BepInExPack\BepInEx\core\BepInEx.dll</HintPath>
+      <HintPath>lib\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="DissonanceVoip">
-      <HintPath>..\DissonanceVoip.dll</HintPath>
+      <HintPath>lib\DissonanceVoip.dll</HintPath>
     </Reference>
     <Reference Include="LethalCompanyInputUtils">
-      <HintPath>..\..\..\..\Documents\Projects\References\LethalCompanyInputUtils.dll</HintPath>
+      <HintPath>lib\LethalCompanyInputUtils.dll</HintPath>
     </Reference>
     <Reference Include="SpectateEnemy">
-      <HintPath>..\..\..\..\Documents\Projects\References\SpectateEnemies\v73\SpectateEnemy.dll</HintPath>
+      <HintPath>lib\SpectateEnemy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-      <HintPath>..\..\..\..\Documents\Projects\References\Lethal Data\Unity.InputSystem.dll</HintPath>
+      <HintPath>lib\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>..\..\..\..\Documents\Projects\References\Lethal Data\Unity.InputSystem.ForUI.dll</HintPath>
+      <HintPath>lib\Unity.InputSystem.ForUI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Netcode.Components">
-      <HintPath>..\..\..\..\Documents\Projects\References\Lethal Data\Unity.Netcode.Components.dll</HintPath>
+      <HintPath>lib\Unity.Netcode.Components.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Netcode.Runtime">
-      <HintPath>..\..\..\..\Documents\Projects\References\Lethal Data\Unity.Netcode.Runtime.dll</HintPath>
+      <HintPath>lib\Unity.Netcode.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>..\..\..\..\Documents\Projects\References\Lethal Data\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>lib\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\Documents\Projects\References\Lethal Data\UnityEngine.dll</HintPath>
+      <HintPath>lib\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\..\Documents\Projects\References\Lethal Data\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>..\..\..\..\Documents\Projects\References\Lethal Data\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>lib\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>..\..\..\..\Documents\Projects\References\Lethal Data\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>lib\UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\..\..\..\Documents\Projects\References\Lethal Data\UnityEngine.UI.dll</HintPath>
+      <HintPath>lib\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Target Name="NetcodePatch" AfterTargets="PostBuildEvent">
